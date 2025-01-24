@@ -26,7 +26,7 @@ const data = {
     },
     introduction: {
       greeting1: "Merhaba,ben ",
-      greeting2: "Batuhan Sena Sert",
+      greeting2: "Asilcan Çetinkaya",
       greeting3: "Full Stack Developer",
       greeting4: "Frontend Developer",
       greeting5: "Backend Developer",
