@@ -1,10 +1,12 @@
 import React from "react";
 import { useLang } from "../context/LangThemeContext";
 import insta from "../assets/instaPP.jpg";
+import instaAsil from "../assets/asilcetinkaya.jpg";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import BatuhanSenaSertCv from "../assets/BatuhanSenaSertCv.pdf";
+import BatuhanSenaSertCv from "../assets/AsilcanCetinkayaCV.pdf";
+
 
 export function Hero() {
   const { textData, lang } = useLang();
@@ -31,7 +33,7 @@ export function Hero() {
           <div className="flex-wrap">
             {/* Animated typewriter */}
             <TypeAnimation
-              sequence={[frontDev, 1000, backDev, 1000, fullDev, 1000]}
+              sequence={[txt.greeting6, 1000, txt.greeting5]}
               speed={50}
               className="text-2xl dark:text-[#aebccf]"
               repeat={Infinity}
@@ -44,13 +46,13 @@ export function Hero() {
             <div className="flex items-center flex-wrap justify-center gap-2 sm:justify-start py-4 sm:py-0">
               <a
                 className="border rounded-md px-4 py-2 text-lg font-medium text-[#3730A3] dark:bg-[#383838] "
-                href="mailto:batuhansenasert@gmail.com"
+                href="mailto:asilcetinkaya48@gmail.com"
               >
                 <span className="dark:text-[#E1E1FF]">{txt.iletişim1}</span>
               </a>
 
               <a
-                href="https://github.com/BSenaS"
+                href="https://github.com/Asilcetinkaya"
                 target="blank"
                 className="text-[#3730A3] border rounded-md px-4 py-2 text-lg font-medium ml-2 flex items-center dark:bg-[#383838] dark:hover:opacity-80 transition-opacity duration-300"
               >
@@ -58,7 +60,7 @@ export function Hero() {
                 <span className="dark:text-[#E1E1FF]">{txt.iletişim2}</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/bssert/"
+                href="https://www.linkedin.com/in/asilcetinkaya/"
                 target="blank"
                 className="text-[#3730A3] border rounded-md px-4 py-2 text-lg font-medium ml-2 flex items-center dark:bg-[#383838] dark:hover:opacity-80 transition-opacity duration-300"
               >
@@ -79,7 +81,7 @@ export function Hero() {
       {/* Right Div */}
       <div className="flex mx-auto lg:mr-0 py-4 sm:py-0 ">
         <img
-          src={insta}
+          src={instaAsil}
           alt="instaPP"
           className="max-w-lg max-h-96 rounded-2xl  object-contain"
         />

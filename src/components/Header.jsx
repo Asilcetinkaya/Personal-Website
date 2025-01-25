@@ -51,7 +51,7 @@ export function Header() {
           </Link>
 
           <a
-            href="mailto:batuhansenasert@gmail.com"
+            href="mailto:asilcetinkaya48@gmail.com"
             className="text-[#3730A3] border rounded-md px-4 md:px-6 py-2 text-lg font-medium dark:bg-[#E1E1FF] hover:dark:bg-[#FAFAFA] hover:text-[#000000]"
           >
             {txt.contact}

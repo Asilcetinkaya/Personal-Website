@@ -5,7 +5,7 @@ import "./Skills.css";
 export function Skills() {
   const { textData, lang } = useLang();
   const txt = textData[lang].skills;
-  const logos = [...txt.skillerim, ...txt.skillerim]; // Logoların döngüsünü sağlamak için kopyasını ekledik
+  const logos = [...txt.skillerim, ...txt.skillerim, ...txt.skillerim, ...txt.skillerim]; // Logoların döngüsünü sağlamak için kopyasını ekledik
 
   return (
     <div

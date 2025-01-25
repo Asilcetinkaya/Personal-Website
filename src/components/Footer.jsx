@@ -14,7 +14,7 @@ export function Footer() {
           <div className="inline-flex mb-4">
             <span className="mr-2">👉</span>
             <a
-              href="mailto:batuhansenasert@gmail.com"
+              href="mailto:asilcetinkaya48@gmail.com"
               className="font-medium text-[#AF0C48] text-xl underline dark:text-[#BAB2E7]"
             >
               {txt.links.email}
@@ -22,19 +22,19 @@ export function Footer() {
           </div>
           <div className="inline-flex flex-wrap gap-x-4">
             <a
-              href="https://twitter.com/berserkFan_"
+              href="https://medium.com/@asil.dev"
               className="font-medium text-lg dark:text-[#BAB2E7]"
             >
               {txt.links.blog}
             </a>
             <a
-              href="https://github.com/BSenaS"
+              href="https://github.com/Asilcetinkaya"
               className="font-medium text-lg text-[#00AB6B]"
             >
               {txt.links.git}
             </a>
             <a
-              href="https://www.linkedin.com/in/bssert/"
+              href="https://www.linkedin.com/in/asilcetinkaya/"
               className="font-medium text-lg text-[#0077B5] dark:text-[#0BA6F6]"
             >
               {txt.links.linkedin}

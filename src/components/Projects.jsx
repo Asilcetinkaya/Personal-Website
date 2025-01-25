@@ -8,9 +8,6 @@ export function Projects() {
     txt.project1,
     txt.project2,
     txt.project3,
-    txt.project4,
-    txt.project5,
-    txt.project6,
   ];
   return (
     <div className="mx-4 projects" id="projects">
