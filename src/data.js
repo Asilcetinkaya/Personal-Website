@@ -18,6 +18,7 @@ import office from "./assets/skill_icons/office.png";
 import trello from "./assets/skill_icons/trello.png";
 import palette from "./assets/skill_icons/palette.png";
 import miro from "./assets/skill_icons/miro.png";
+import greengoWe from "./assets/skill_icons/miro.png";
 
 
 const data = {
@@ -132,19 +133,22 @@ const data = {
         image: "/project-img/skytex-home.jpeg",
       },
       project3: {
-        title: "Firma Kurulum Döküman",
-        p1: "Bu projede sıfırdan kurulan bir firma için oluşturulan kritik yol methodu , dijital pazarlama stratejileri , organizasyon doyası gibi süreçleri tasarlayarak firmanlar için başlangıç strattejisini oluşturmayı hedefledim.",
+        title: "GreenGo Rental",
+        p1: "Bu projede, Türkiye'de şu an için faaliyette olmayan ancak ileride hizmete girme potansiyeli bulunan, yalnızca elektrikli araç kiralama hizmeti sunacak bir web sitesi tasarımı oluşturdum.",
         tags: [
           "MS Office",
           "Kritik Yol Methodu",
           "Dijital Pazarlama",
           "Marka İmajı",
+          "Adobe XD",
+          "Jira",
+          "Wordpress"
         ],
         links: {
           git: "https://github.com/Asilcetinkaya",
-          redirect: "https://drive.google.com/drive/folders/1LqayEhIrgQv-sMb1z9JYzRmPDYkZV_tS?usp=sharing",
+          redirect: "https://drive.google.com/drive/folders/1sJFSNyMQOU0gfnlp9s1tfn6xfBXXbNf_?usp=sharing",
         },
-        image: "/project-img/firmaPng.png",
+        image: "/project-img/greengoWe.jpeg",
       },
       project4: {
         title: "Pizza Website",
@@ -323,19 +327,22 @@ const data = {
         image: "/project-img/skytex-home.jpeg",
       },
       project3: {
-        title: "Company Setup Document",
-        p1:  "In this project, I aimed to create an initial strategy for companies by designing processes such as the critical path method developed for a newly established company, digital marketing strategies, and organizational files.",
+        title: "GreenGo Rental",
+        p1:  "In this project, I have created a website design for an exclusive electric vehicle rental service, which is not currently operational in Turkey but has the potential to launch in the future.",
         tags: [
           "MS Office"  ,
           "Critical Path Method"  ,
           "Digital Marketing" , 
           "Brand Image",
+          "Adobe XD",
+          "Jira",
+          "Wordpress"
         ],
         links: {
           git: "https://github.com/Asilcetinkaya",
-          redirect: "https://drive.google.com/drive/folders/1LqayEhIrgQv-sMb1z9JYzRmPDYkZV_tS?usp=sharing",
+          redirect: "https://drive.google.com/drive/folders/1sJFSNyMQOU0gfnlp9s1tfn6xfBXXbNf_?usp=sharing",
         },
-        image: "/project-img/firmaPng.png",
+        image: "/project-img/greengoWe.jpeg",
       },
       project4: {
         title: "Pizza Website",
